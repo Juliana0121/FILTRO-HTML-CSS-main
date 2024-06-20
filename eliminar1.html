@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <header>
+
+        <a href="#" class="logo"> <img src="./BOUTIQUE.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="index.html">Todos los productos</a>
+            <a href="abrigos.html">Abrigos</a>
+            <a href="camisetas.html">Camisetas</a>
+            <a href="pantalones.html">Pantalones</a>
+            <a href="carrito.html">Carrito</a>
+        </nav>
+        
+    </header>
+    <div class="modal">
+        <div class="modal__header">
+            <h2><i class="carro"></i> Carrito</h2>
+        </div>
+
+        <div class="modal__body">
+            <div class="modal__item">
+                <div class="modal__thumb">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_930447-MCO71410142210_092023-F.webp" alt="abrigo3">
+                </div>
+                <div class="modal__text-product">
+                    <p class="modal__product-name">Chaqueta Impermeable En Gabán Para Dama 'Blanco'</p>
+                    <p class="modal__product-price"><strong>$93.900</strong></p>
+                </div>
+                <div class="modal__quantity">
+                    <label for="quantity1">Cantidad:</label>
+                    <select id="quantity1" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="modal__subtotal">
+                    <p><strong>Subtotal:</strong> $187.800</p>
+                </div>
+            </div>
+
+            <div class="modal__item">
+                <div class="modal__thumb">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_731406-MCO42646277112_072020-F.webp" alt="poker">
+                </div>
+                <div class="modal__text-product">
+                    <p class="modal__product-name">Pantalon En Dril Licrado Para Hombre</p>
+                    <p class="modal__product-price"><strong>$58.900</strong></p>
+                </div>
+                <div class="modal__quantity">
+                    <label for="quantity2">Cantidad:</label>
+                    <select id="quantity2" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="modal__subtotal">
+                    <p><strong>Subtotal:</strong> $117.800</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal__footer">
+            <div class="modal__list-price">
+                <h4 class="modal__total-cart">Total: $305.600</h4>
+            </div>
+            <button class="modal__footer-button"><a href="carritovacio.html">Carrito Vacío</a></button>
+            <button class="modal__footer-button delete"><a href="eliminar2.html">Eliminar Producto</a></button>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,108 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 30vh;
+    left: 0;
+    width: 230px; 
+    background-color: #FFB908;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+header .nav{
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.modal {
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal__header {
+    background-color: #ffb908;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.modal__body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.modal__item {
+    display: flex;
+    gap: 20px;
+}
+
+.modal__thumb img {
+    width: 100px;
+    height: auto;
+}
+
+.modal__text-product {
+    flex-grow: 1;
+}
+
+.modal__text-product p {
+    margin: 0;
+}
+
+.modal__quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.modal__quantity label {
+    margin-bottom: 5px;
+}
+
+.modal__footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal__footer button {
+    background-color: #ffb908;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.modal__footer button.delete {
+    background-color: #FFB908;
+}
+
+.modal__footer button.delete:hover {
+    background-color: #FFB908;
+}
+
+.vacio p{
+    text-align: center;
+}
